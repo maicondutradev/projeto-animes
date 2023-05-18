@@ -1,1 +1,33 @@
 @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, white, rgba(128, 128, 128, 0.274));
+    padding: 20px;
+}
+
+header > h1 {
+    font-size: 2em;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.772);
+    padding: 10px;
+}
+nav > a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+nav > a:hover{
+    background-color: red;
+    padding-right: 20px;
+    padding-left: 20px;
+}
