@@ -5,19 +5,32 @@
     padding: 0px;
 }
 
+body{
+    background-color: #32acb030;
+}
+
 header {
     text-align: center;
-    background-image: linear-gradient(to bottom, white, rgba(128, 128, 128, 0.274));
+    background-image: linear-gradient(to bottom, white, #32acb017);
     padding: 20px;
 }
 
 header > h1 {
-    font-size: 2em;
+    font-size:3em;
 }
+
 
 nav{
     background-color: rgba(0, 0, 0, 0.772);
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 767px){
+    nav{
+        flex-direction: column;
+    }
 }
 nav > a {
     text-decoration: none;
@@ -31,3 +44,46 @@ nav > a:hover{
     padding-right: 20px;
     padding-left: 20px;
 }
+
+main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  h2{
+    text-align: center;
+    }
+  
+  .anime-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .anime-item {
+    text-align: left;
+  }
+  
+  .anime-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .anime-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .anime-item h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .links:hover{
+    color: red;
+    text-decoration: underline;
+  }
