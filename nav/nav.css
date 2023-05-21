@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.200);
+}
+
+header {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+header > h1 {
+    font-size: 3em;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.772);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 767px){
+    nav{
+        flex-direction: column;
+    }
+}
+
+nav > a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: red;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}

@@ -5,13 +5,13 @@
     padding: 0px;
 }
 
-body{
-    background-color: #32acb030;
+body {
+    background-color: rgba(128, 128, 128, 0.200);
 }
 
 header {
     text-align: center;
-    background-image: linear-gradient(to bottom, white, #32acb017);
+    background-color: white;
     padding: 20px;
 }
 
@@ -50,6 +50,7 @@ main {
     padding: 20px;
   }
   
+
   h1 {
     font-size: 34px;
     padding-bottom: 10px;
@@ -101,4 +102,5 @@ main {
   .image-zoom:hover img {
     transform: scale(1.2);
   }
+  
   
