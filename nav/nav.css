@@ -59,6 +59,10 @@ main {
     padding: 20px;
 }
 
+main > article > p {
+    color: green;
+}
+
 h1{
     font-size: 34px;
     padding-bottom: 10px;
