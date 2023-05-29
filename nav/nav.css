@@ -63,6 +63,14 @@ main > article > p {
     color: green;
 }
 
+main > a > img {
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.772);
+    border-radius: 30%;
+  }
+
 h1{
     font-size: 34px;
     padding-bottom: 10px;
