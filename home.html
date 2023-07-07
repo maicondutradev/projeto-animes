@@ -8,6 +8,7 @@
       
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/animes.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Enkize Animes</title>
 </head>
@@ -16,8 +17,8 @@
     <header>
         <h1>Enkize Animes</h1>
     </header>
-
-    <nav>
+    <span id="burguer" class="material-icons" onclick="click_menu()">menu</span>
+    <nav id="itens">
         <a href="home.html">HOME</a>
         <a href="nav/Curiosidades.html">CURIOSIDADES</a>
         <a href="nav/noticias.html">NOTÍCIAS</a>
@@ -140,6 +141,16 @@
               </li>
             </ul>
     </main>
+
+    <script>
+      function click_menu(){
+        if(itens.style.display == 'block'){
+          itens.style.display = 'none'
+        } else {
+          itens.style.display = 'block'
+        }
+      }
+    </script>
 
     <footer>
       <p>Desenvolvido por maicondutradev</p>

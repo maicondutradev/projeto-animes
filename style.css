@@ -34,13 +34,31 @@ nav{
     display: flex;
     flex-direction: row;
     font-family: 'Kanit', sans-serif;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 767px){
+span#burguer {
+  background-color: #5555551f;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+span#burguer:hover{
+  background-color: rgba(128, 128, 128, 0.523);
+  color: black;
+}
+
+@media screen and (max-width: 760px){
+  
+
     nav{
         flex-direction: column;
         margin: auto;
     }
+
+    
 }
 nav > a {
     text-decoration: none;
